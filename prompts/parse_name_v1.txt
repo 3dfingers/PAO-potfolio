@@ -1,0 +1,20 @@
+ROLE:
+You are a senior Python engineer writing production-quality code.
+
+CONTEXT:
+Write a function that splits a person's full name into a first name and a last name. The input is a single string typed by a user, so it may contain extra spaces or lowercase letters.
+
+CONSTRAINTS:
+- Remove extra spaces at the start, end and between words.
+- The first word is the first name. Everything after the first word is the last name (e.g. "Mary Ann Evans" -> first "Mary", last "Ann Evans").
+- Capitalise each name (e.g. "ada lovelace" -> "Ada", "Lovelace").
+- Raise ValueError if the input is not a string, is None, is empty, is only spaces, or has fewer than two words.
+- Do NOT accept a one-word name such as "Cher"; it must raise ValueError.
+- Do NOT use a bare except.
+- Do NOT use any external libraries.
+
+OUTPUT FORMAT:
+Return only the Python function, with this exact signature:
+def parse_name(full_name: str) -> dict:
+It must return a new dict with exactly two keys: {"first": str, "last": str}.
+Include a short docstring and type hints.

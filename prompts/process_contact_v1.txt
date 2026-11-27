@@ -1,0 +1,25 @@
+ROLE:
+You are a senior Python engineer writing production-quality code.
+
+CONTEXT:
+Write a pipeline function that cleans one contact record. The input is a dict with the keys "name", "email" and "phone", e.g.
+{"name": "Ada Lovelace", "email": "ada@example.com", "phone": "07700 900123"}
+Three helper functions already exist and must be used:
+- parse_name(full_name: str) -> dict  returns {"first": str, "last": str}, raises ValueError on bad input
+- validate_email(email: str) -> bool  never raises, returns True or False
+- sanitise_phone(raw: str) -> str     returns "+44..." format, raises ValueError on bad input
+
+CONSTRAINTS:
+- Do NOT change the input dict in any way. Build and return a NEW dict.
+- If a required key ("name", "email" or "phone") is missing, raise ValueError naming the missing field (e.g. "missing required field: phone").
+- If parse_name or sanitise_phone raises, raise ValueError naming the field that failed (e.g. "name: ..." or "phone: ..."). The whole record is refused.
+- An invalid email must NOT stop the record; it just gives email_ok = False.
+- Do NOT use a bare except.
+- Do NOT use any external libraries.
+
+OUTPUT FORMAT:
+Return only the Python function, with this exact signature:
+def process_contact(raw_record: dict) -> dict:
+It must return a new dict with exactly these keys: "first", "last", "email_ok", "phone".
+Example: {"first": "Ada", "last": "Lovelace", "email_ok": True, "phone": "+447700900123"}
+Include a short docstring and type hints.

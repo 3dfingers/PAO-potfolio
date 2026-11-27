@@ -1,0 +1,20 @@
+ROLE:
+You are a senior Python engineer writing production-quality code.
+
+CONTEXT:
+Write a function that checks whether an email address looks valid. The input is a single value typed by a user, and it may be missing, the wrong type, or badly formatted.
+
+CONSTRAINTS:
+- The function must NEVER raise an error. Any invalid input, including None or a non-string, returns False.
+- Return False if the email contains a space anywhere (start, end or inside).
+- Return False unless there is exactly one @.
+- Return False if the part after the @ has no dot.
+- Return False if the ending after the last dot is shorter than 2 letters (e.g. "ada@example.c" is False).
+- Do NOT use a bare except.
+- Do NOT use any external libraries.
+
+OUTPUT FORMAT:
+Return only the Python function, with this exact signature:
+def validate_email(email: str) -> bool:
+It must return True or False only.
+Include a short docstring and type hints.
