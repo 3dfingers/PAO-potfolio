@@ -1,0 +1,16 @@
+"""Clean and validate a contact record without modifying the input.
+
+Args:
+raw_record: A dictionary containing the required name, email,
+and phone fields.
+
+Returns:
+A dictionary containing the parsed first and last names,
+the email_ok validation result, and the sanitised phone number.
+
+Raises:
+ValueError: If a required field is missing, or if parsing the name
+or sanitising the phone number raises a ValueError. Name and
+phone errors are prefixed with "name: " and "phone: ",
+respectively.
+"""
