@@ -50,3 +50,14 @@ All tests pass, but hand tracing found two problems the tests did not catch, bec
 2. sanitise_phone("+44 (0)7700 900123") raises ValueError: a valid UK format is rejected because the (0) is kept, giving 13 digits.
 
 Conclusion: the gaps are in my specification, not just the code. Next: update the spec first, then the tests, then the prompt.
+
+
+# Repair round 1: validate_email (27 Nov 2026)
+
+- Defect: validate_email("ada@.com") returned True (silent wrong answer), found by hand tracing v1.
+- Spec changed first: added rule "domain must have a name before the dot".
+- New test test_validate_email_no_domain_name: FAILED against v1 (1 failed, 31 passed).
+- Prompt v2: added constraint "Do NOT accept a domain with nothing before the dot: 'ada@.com' must return False."
+- v2 code adds: `if domain.startswith(".") or domain.endswith("."): return False`
+- Result with v2: 32 passed.
+- Side effect noticed: v2 silently DROPPED the v1 check `ending.isalpha()`, which I did not ask to remove. "ada@example.12" was False in v1 and is True in v2. Regenerating changed behaviour outside the one defect I targeted.
