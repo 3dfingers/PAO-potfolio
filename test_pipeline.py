@@ -89,6 +89,13 @@ def test_non_numeric_amount_rejected(tmp_path):
     assert valid == []
     assert errors[0]["errors"][0].startswith("amount")
 
+@pytest.mark.parametrize("weird", ["nan", "NaN", "inf", "-inf"])
+def test_nan_and_inf_amounts_rejected(tmp_path, weird):
+    path = write_csv(tmp_path, f"1001,Ada,{weird},active\n")
+    valid, errors = load_records(path)
+    assert valid == []
+    assert errors[0]["errors"][0].startswith("amount")
+
 
 @pytest.mark.parametrize("missing", ["none", "NULL", "N/A", "£"])
 def test_missing_amount_words_rejected(tmp_path, missing):

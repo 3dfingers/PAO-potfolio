@@ -54,3 +54,4 @@ Other file rules:
 ## Change log
 | Date | Change | Reason |
 |---|---|---|
+| 27 Nov 2026 | amount: "nan" and "inf" are rejected | Reading the v1 code showed float() accepts "nan"/"inf", so they would be marked valid and written as invalid JSON (NaN) |
