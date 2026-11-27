@@ -41,7 +41,7 @@ Other file rules:
 - (Deliberate change from the guide's one-argument signature: the summary needs both lists to give a total.)
 
 ### run_pipeline(input_csv: str, output_json: str) -> dict
-- load_records → deduplicate_by_id → summarise.
+- load_records → deduplicate_by_id → summarise. The summary must be built from the DEDUPLICATED valid records, so valid_count always equals the number of records in output_json.
 - Writes valid records to output_json, and error records to the same name with "_errors" added (clean.json → clean_errors.json).
 - JSON written with ensure_ascii=False, indent=2, encoding="utf-8".
 - Returns the summary dict.
@@ -55,3 +55,4 @@ Other file rules:
 | Date | Change | Reason |
 |---|---|---|
 | 27 Nov 2026 | amount: "nan" and "inf" are rejected | Reading the v1 code showed float() accepts "nan"/"inf", so they would be marked valid and written as invalid JSON (NaN) |
+| 27 Nov 2026 | Summary must use the deduplicated list | Reading the v1 code showed summarise() was given the list before dedup; with duplicate ids the summary and clean.json would disagree |

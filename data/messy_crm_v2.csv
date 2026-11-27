@@ -1,0 +1,1006 @@
+﻿id,name,amount,status
+1001,Ada Kierkegaard,1119.94,  CHURNED  
+1002,Donald Hamilton,none,  Churned  
+1003,Ada Nørgaard, 3492.21 ,  Active  
+1004,Margaret Liskov,-17.09,  CHURNED  
+1005,"Dubois, Søren",£352.43,  Active  
+1006,Hélène Schmidt, 817.46 ,  Trial  
+1007,Barbara García,NULL,  Churned  
+1008,Grace Hamilton,£4026.20,  Active  
+1009,Donald Schmidt,£4423.99,
+1010,José Kierkegaard,£4489.63,  Active  
+1011,Margaret Turing,-57.62,  TRIAL  
+1012,Ada Schmidt, 3410.14 ,  TRIAL  
+1013,José García,2540.87,  Trial  
+1014,"Nørgaard, Søren",4767.73,  TRIAL  
+1015,"Hamilton, François",4390.66,
+1016,Claude Turing,N/A,  CHURNED  
+1017,Renée Schmidt,£2193.31,
+1018,"Dubois, Katherine",359.61,  Active  
+1019,Åke Hamilton,£3618.15,  Trial  
+1020,Chloë Liskov,-75.54,  CHURNED  
+1021,"Hamilton, Margaret",£2,683.75,  TRIAL  
+1022,Margaret Lovelace,-53.32,  ACTIVE  
+1023,Grace Turing, 4926.62 ,  TRIAL  
+1024,"Turing, Åke",1092.42,  CHURNED  
+1025,Åke García,,  Active  
+1026,"Knuth, Katherine",£4,451.99,  Active  
+1027,Linus Liskov, 1025.27 ,  TRIAL  
+1028,Alan Lovelace,4992.28,
+1029,"Torvalds, Søren", 1225.20 ,  Churned  
+1030,Linus Lovelace,2775.24,  ACTIVE  
+1031,Claude Shannon, 1057.10 ,  Churned  
+1032,Grace Hopper,4147.59,
+1033,José Turing,£2760.64,  ACTIVE  
+1034,Grace Smith,£2764.86,
+1035,Grace Torvalds,3411.92,  Churned  
+1036,Claude Torvalds,£4,323.71,  ACTIVE  
+1037,Chloë Nørgaard,£3,676.61,  CHURNED  
+1038,Katherine Hamilton, 2304.21 ,  ACTIVE  
+1039,"Smith, José", 3867.77 ,  Trial  
+1040,Ada Hopper, 1309.77 ,
+1041,Müller Knuth,£2559.56,  ACTIVE  
+1042,Donald Liskov, 4744.63 ,  Churned  ,EXTRA_FIELD
+1043,Linus Shannon, 1634.28 ,  ACTIVE  
+1044,Barbara Dubois,2033.35,  ACTIVE  
+1045,Müller Johnson,,  CHURNED  
+1046,François García,N/A,  Active  
+1047,"Lovelace, Claude",4919.76,  Churned  ,EXTRA_FIELD
+1048,Renée Johnson,N/A,  Active  
+1049,"Johnson, Linus",1249.75,  Trial  
+1050,Hélène Dubois,£4460.64,  CHURNED  
+
+1051,Hélène Shannon, 4200.12 ,  CHURNED  
+1052,François Hamilton,1601.95,
+1053,Donald Hopper,£1657.75,  Active  
+1054,Ada Smith,£2880.57,
+1055,Chloë García,£2,732.93
+1056,"Kierkegaard, Renée",£2,339.61,  CHURNED  
+1057,Ada Hopper,£682.82,  TRIAL  
+1058,Renée Shannon, 4160.46 ,  TRIAL  
+1059,Søren Hamilton,3907.26
+1060,Claude Johnson,abc,  Trial  
+1061,"Shannon, Barbara", 133.26 ,  TRIAL  
+1062,Katherine Hopper,£,  Churned  
+1063,Søren Hopper,£1709.45,  ACTIVE  
+1064,"Kierkegaard, Hélène", 884.80 ,  Churned  
+1065,José Liskov,4154.50,  TRIAL  
+1066,"Liskov, Renée",£4,255.51,  Trial  
+1067,"García, José",4740.57,  TRIAL  
+1068,Åke Johnson,£469.80,  ACTIVE  
+1069,Linus Liskov, 3730.95 ,  TRIAL  
+1070,"Liskov, Donald",£2,681.64,  CHURNED  ,EXTRA_FIELD
+1071,Linus Dubois,£507.13
+1072,José Lovelace,£2,769.03
+1073,Åke Johnson, 4827.66 ,  TRIAL  
+1074,"Turing, Grace", 2816.38 ,
+1075,Chloë Dubois,£3094.00,  TRIAL  
+1076,Grace Dubois,£500.67,  Trial  
+1077,"Turing, Alan",£,  ACTIVE  
+1078,Hélène Hopper,£4,619.94,  CHURNED  
+1079,"Hopper, Claude", 3964.18 ,  Trial  
+1080,Linus García,406.81,  CHURNED  
+1081,Ada Nørgaard,1351.21,  ACTIVE  ,EXTRA_FIELD
+1082,José Turing,£2182.25,  TRIAL  
+1083,Barbara Liskov,£2479.87,  CHURNED  
+1084,Margaret Nørgaard,2575.41,  CHURNED  
+1085,Åke Schmidt, 262.80 ,  TRIAL  
+1086,"Kierkegaard, Katherine",£2756.44,pending_approval
+1087,Margaret Schmidt, 2494.39 ,  TRIAL  
+1088,"García, Hélène",£957.10,  Trial  
+1089,Linus Shannon, 1417.78 ,  Churned  
+1090,Åke Liskov,£3815.55,  Trial  ,EXTRA_FIELD
+1091,Renée Hamilton, 2056.82 ,  Churned  
+1092,Claude Johnson, 635.60 ,  TRIAL  
+1093,Claude Knuth,4849.93,  TRIAL  ,EXTRA_FIELD
+1094,Alan Smith,£3373.42,  Churned  
+1095,"Dubois, Grace", 3157.65 ,  CHURNED  
+1096,"Johnson, Margaret",1500.83,
+1097,"Knuth, Søren",£2,658.18,  Active  
+1098,Åke Torvalds, 1164.78 ,  CHURNED  
+1099,Barbara Hopper, 1731.10 ,  Trial  
+1100,Renée Smith, 1189.84 ,  CHURNED  
+1101,José Lovelace,3430.57,  CHURNED  
+1102,Katherine Dubois,£1,098.93,  Churned  
+1103,"Schmidt, Claude",3139.15,  TRIAL  
+1104,François Liskov,£,  Trial  
+1105,José Torvalds, 2411.83 ,  Trial  
+1106,Katherine Smith,£3373.66,unknown
+1107,Margaret Johnson,,  Churned  
+1108,Åke Lovelace, 4716.13 ,  Active  
+1109,François Schmidt,703.19,  TRIAL  
+1110,Renée Johnson,£4747.16,  CHURNED  
+1111,Åke Dubois,NULL,  ACTIVE  
+1112,Søren García,3225.91,unknown
+1113,Donald Schmidt,4855.61,suspended
+1114,"Dubois, Donald", 4349.13 ,suspended
+1115,"Nørgaard, José",3306.98,
+1116,"Lovelace, Müller",£266.73,  CHURNED  
+1117,Margaret Johnson,4727.35,  Churned  
+1118,Grace Johnson,2134.24,  TRIAL  
+1119,Alan Turing, 3167.22 ,  Churned  
+1120,Chloë Hopper,£576.50,unknown
+1121,Renée Knuth, 1566.18 ,  Trial  ,EXTRA_FIELD
+1122,"Hopper, Åke",£431.39,,EXTRA_FIELD
+1123,"Nørgaard, Søren", 304.60 ,  TRIAL  ,EXTRA_FIELD
+1124,Chloë Smith, 261.97 ,  TRIAL  
+1125,Åke Hamilton,£,
+1126,Chloë Smith,3838.33,  Churned  
+1127,François Torvalds,£35.50,  TRIAL  
+1128,Alan Kierkegaard,£1884.09,  TRIAL  
+1129,"Torvalds, Alan",791.26,  TRIAL  
+1130,"Shannon, Chloë", 2564.17 ,  Trial  
+1131,"Lovelace, François",4922.31,
+1132,Claude Nørgaard,1643.97,  TRIAL  
+1133,Linus García,4031.97
+1134,Müller Dubois,£2025.09,  TRIAL  
+1135,Hélène Smith,£1812.45,  ACTIVE  
+1136,François Kierkegaard,£1,668.68,,EXTRA_FIELD
+1137,Linus Hamilton,N/A,  ACTIVE  
+1138,Alan Turing,£3141.60,  CHURNED  
+1139,Müller Smith,£1584.11,
+1140,"Dubois, José", 2539.15 ,  ACTIVE  
+1141,Alan Dubois,£,  Churned  
+1142,Linus Turing, 2255.36 ,  Active  
+1143,Hélène Johnson, 3050.98 ,  TRIAL  
+1144,Grace Nørgaard, 1676.57 ,
+1145,"Liskov, Claude", 3319.74 ,  Churned  
+1146,Alan Shannon, 3219.25 ,  Churned  
+1147,Linus Hopper, 2119.91 ,
+1148,Müller Nørgaard,£1,136.58,  Trial  
+1149,Linus Lovelace,£4,382.58,  ACTIVE  
+1150,Barbara Kierkegaard,£2,057.24,  CHURNED  
+
+1151,Katherine Shannon,£3,922.93,  Churned  
+1152,Renée García,£4,831.51,  Active  
+1153,Søren García,3558.45,  ACTIVE  
+1154,Chloë Hopper,-55.18,  ACTIVE  
+1155,"Liskov, Alan",1596.83,  CHURNED  
+1156,Åke Kierkegaard,,  Active  
+1157,Claude García,£3046.36,
+1158,Grace Hamilton,£3970.53,
+1159,Ada Schmidt,£1,213.48,  Active  
+1160,Alan García,343.06,  TRIAL  
+1161,Ada Liskov,1727.29,  Churned  
+1162,Müller Smith,£4152.77,  Trial  
+1163,"   ",£223.81,  Trial  
+1164,"Shannon, Åke", 3236.27 ,  Active  
+1165,Søren Knuth,-43.06,  ACTIVE  
+1166,"Nørgaard, José",£2125.38,  Active  
+1167,François Shannon,£3,589.73,  TRIAL  ,EXTRA_FIELD
+1168,Søren Dubois,1376.40,
+1169,"Lovelace, Barbara",£3039.83,
+1170,Søren Liskov,£2,838.39,  TRIAL  
+1171,Linus Liskov,£3,249.56,  Active  
+1172,Margaret Shannon,£3,521.67,  Trial  
+1173,"Smith, Claude",£867.42,  Churned  
+1174,Alan García,£4,457.20,  Churned  
+1175,Margaret Hamilton,£1187.50,
+1176,Claude Dubois,£333.41,  CHURNED  
+1177,Alan Turing,£3213.48,  CHURNED  
+1178,Barbara Nørgaard,2165.93,  CHURNED  
+1179,Katherine Liskov, 2596.89 ,  TRIAL  
+1180,François Dubois,£2,515.35,  CHURNED  
+1181,Müller Smith,210.77,
+1182,"Schmidt, José",2862.83,  Churned  
+1183,Katherine Nørgaard,£2033.43,
+1184,"Johnson, Åke", 3035.27 ,  Trial  
+1185,Claude Nørgaard, 2810.45 ,  ACTIVE  
+1186,François Knuth,N/A,  Churned  
+1187,Linus Johnson,1546.16,
+1188,Katherine Hamilton, 248.05 ,  Churned  
+1189,"Knuth, Margaret",,  TRIAL  
+1190,Donald Liskov,£372.29,  Trial  
+1191,Claude Hopper, 3975.51 ,  Trial  
+1192,"Lovelace, Linus", 689.50 ,  CHURNED  
+1193,Müller Torvalds, 816.70 ,  Churned  
+1194,François Johnson,1844.95,  CHURNED  
+1195,Ada Dubois,£4,835.52,  CHURNED  
+1196,Renée Turing,1214.77,  TRIAL  
+1197,Chloë García,4603.00,  CHURNED  
+1198,Linus Knuth, 870.05 ,  Churned  
+1199,José Dubois, 4786.90 ,  Active  
+1200,Donald Kierkegaard, 1588.62 ,  CHURNED  
+1201,Renée Torvalds,£4,092.80,  Trial  
+1202,José Kierkegaard, 1014.33 ,  CHURNED  
+1203,"Hamilton, Katherine",£4,526.40,  ACTIVE  
+1204,Claude Lovelace,£4,889.66,  TRIAL  
+1205,Müller Shannon,4540.15,  Active  
+1206,Barbara Knuth,883.06,  Trial  
+1207,"Torvalds, François",1495.47,  TRIAL  
+1208,Åke Torvalds,£4256.04,  ACTIVE  
+1209,Barbara Lovelace,£3,954.88,  Churned  
+1210,Alan Knuth,£927.98,  ACTIVE  
+1211,José Liskov,3615.80,  Trial  
+1212,François Turing,£,  Churned  
+1213,Katherine Hamilton,£2393.52,  CHURNED  
+1214,"Nørgaard, Donald",3774.92,  Churned  
+1215,Grace Smith,£2,529.91,  CHURNED  
+1216,Åke Hopper,2230.19,  CHURNED  
+1217,"Kierkegaard, François",1276.01,  CHURNED  
+1218,Grace Torvalds,£4930.76,
+1219,Chloë Liskov,£1915.49,  Churned  
+1220,"Hopper, Søren",£2,688.61,pending_approval
+1221,Hélène Schmidt,£2123.52,  ACTIVE  
+1222,Margaret Lovelace,2099.11
+1223,Grace Hamilton,£2,014.32,  ACTIVE  
+1224,Müller Dubois, 3364.30 ,  Active  
+1225,José Lovelace,£2,960.38
+1226,Renée Nørgaard,£3483.06,
+1227,Åke Hamilton,£1,507.18,  Active  
+1228,"Knuth, Claude",1020.67,  TRIAL  
+1229,José Knuth,3016.60,  Churned  
+1230,Müller Shannon,£81.59,  Active  
+1231,Donald Knuth, 2762.64 ,  Churned  
+1232,"Johnson, Åke",£4906.69,  Trial  
+1233,"Kierkegaard, Katherine",£1307.57,  ACTIVE  
+1234,Åke García, 3425.81 ,  Trial  
+1235,Barbara Kierkegaard,£850.48,  Churned  
+1236,Alan Smith,£3822.87,
+1237,"Lovelace, Claude",-69.34,  Churned  
+1238,"Lovelace, Chloë", 3612.35 ,unknown
+1239,Barbara Hopper,£2,624.31,  CHURNED  
+1240,Alan Liskov,£2,297.69,  ACTIVE  
+1241,Grace Hopper,,
+1242,Alan Johnson, 3226.31 ,  Active  
+1243,"Shannon, Åke", 376.37 ,  Churned  
+1244,Ada Hamilton,£3762.51,  TRIAL  
+1245,Renée Schmidt,£1,661.99,  Churned  
+1246,Grace Hopper, 4194.18 ,  Churned  
+1247,Ada Schmidt,£4962.97,  Churned  
+1248,Renée Hopper,£1,480.42,  ACTIVE  
+1249,Claude Kierkegaard,1806.70,
+1250,"Hopper, José",£941.02
+1251,Alan Dubois,£1625.53,
+1252,Katherine Dubois,£3,428.15,
+1253,Alan Turing,£2108.41,  TRIAL  
+1254,"Johnson, Donald",£1526.77,  CHURNED  
+1255,Chloë Smith,£3,256.93,  Churned  
+1256,Renée Liskov,£3476.31,  ACTIVE  
+1257,Søren Hopper,£1,003.00,  CHURNED  
+1258,Donald Johnson,4157.25,  Trial  
+1259,"Schmidt, José",£2118.52,
+1260,Renée García,£4602.36,  Trial  
+1261,Alan Hopper, 3289.72 ,  CHURNED  
+1262,Renée Nørgaard,3982.17,
+1263,Linus García,£2878.30,  Trial  
+1264,Søren Lovelace,1480.68,
+1265,François Liskov,£1038.30,  ACTIVE  ,EXTRA_FIELD
+1266,"Shannon, Alan",3555.34,  CHURNED  
+1267,"García, Katherine",£804.88,  Active  
+1268,"Knuth, Chloë",£3,072.46,  TRIAL  
+1269,"Dubois, Alan",£4,360.54,  ACTIVE  
+1270,Linus Schmidt,£1946.25,  TRIAL  
+1271,François Torvalds,NULL,  ACTIVE  
+1272,Linus Knuth,£693.65,  Trial  
+1273,"García, Barbara",£1,447.73,  Trial  
+1274,"Turing, Åke",£1922.80,  TRIAL  
+1275,"Dubois, Alan", 3806.48 ,
+1276,Hélène Dubois,3830.77,  Trial  
+1277,Grace Nørgaard,£2734.03,
+1278,François Smith, 2251.41 ,  ACTIVE  
+1279,Katherine Hamilton, 2941.68 ,  Churned  
+1280,"Smith, Donald",£,  Churned  
+1281,François Shannon,4762.22,
+1282,Grace Shannon,£638.81,  CHURNED  
+1283,"Johnson, Renée",£3163.85,  Active  
+1284,Linus Kierkegaard,,  TRIAL  
+1285,Alan Kierkegaard, 3176.03 ,  CHURNED  
+1286,Åke Shannon,£1,421.55,  Trial  
+1287,Grace Hopper,4184.33,
+1288,"Knuth, Ada",£3,444.52,  TRIAL  
+1289,"Shannon, Søren",£3,324.22,
+1290,Katherine Knuth,3519.97,  ACTIVE  
+1291,Ada Lovelace,£4086.46,  TRIAL  
+1292,Margaret Hopper,£4,405.54,  Active  
+1293,"   ",£2,203.30,  Active  
+1294,Donald Hopper,704.37,  TRIAL  
+1295,Katherine Shannon, 1244.59 ,  CHURNED  
+1296,Donald García,£947.29,  Active  
+1297,"Hopper, Renée",3192.22,  Active  
+1298,Chloë Liskov,,  ACTIVE  
+1299,Donald Lovelace,£4743.66,unknown
+1300,Renée Hopper,£2,690.59,  TRIAL  
+
+1301,Claude García,2934.25,  Trial  
+1302,Alan Torvalds,abc,  Churned  
+1303,"Kierkegaard, Claude",£,  CHURNED  
+1304,José Kierkegaard,,  TRIAL  
+1305,Alan Johnson,£1803.82,  ACTIVE  
+1306,Margaret Hamilton,N/A,  TRIAL  
+1307,Grace García,£3571.53,  ACTIVE  
+1308,Alan Dubois,2512.69,  Churned  
+1309,Hélène Smith,-10.72,
+1310,Donald Shannon,£1,523.03,suspended
+1311,"Turing, Katherine",,  Churned  
+1312,"   ", 1884.49 ,
+1313,Katherine Knuth,none,  ACTIVE  
+1314,Søren Johnson,429.09,  Churned  
+1315,Chloë Schmidt, 1187.67 ,  Trial  
+1316,"Hamilton, José",1017.55,  ACTIVE  
+1317,"Nørgaard, Søren", 1545.00 ,  ACTIVE  ,EXTRA_FIELD
+1318,Grace Hamilton,1642.33
+1319,Barbara Lovelace,£4,273.73,
+1320,"Lovelace, Margaret",£3,905.90,
+1321,Alan Dubois,4587.56,
+1322,"Nørgaard, Hélène", 4525.86 ,
+1323,Chloë Smith,NULL,  ACTIVE  
+1324,Claude Lovelace, 3086.80 ,  CHURNED  
+1325,Chloë Hamilton,£3,987.00,  Churned  
+1326,Søren Johnson, 2425.97 ,  ACTIVE  
+1327,José Lovelace,,  Active  
+1328,Katherine Shannon,3957.23,  Active  
+1329,"Turing, Barbara", 1593.43 ,  Active  
+1330,Claude Dubois,£4184.30,  ACTIVE  
+1331,Katherine Lovelace,£8.41,  Trial  
+1332,"Lovelace, Müller",£2,935.11,  Churned  
+1333,"Dubois, Renée",£1,512.32,  Churned  
+1334,Müller Turing, 2812.08 ,  Churned  
+1335,"Turing, François",£13.98,  CHURNED  
+1336,Katherine Schmidt,£4,683.76,  ACTIVE  
+1337,Alan Smith, 3197.32 ,  TRIAL  ,EXTRA_FIELD
+1338,"Nørgaard, José",-54.38,  Trial  
+1339,Renée Hopper,£3,944.71
+1340,"Hopper, José",,  Active  
+1341,"Kierkegaard, Åke",£4,712.50,  TRIAL  
+1342,Donald Knuth, 3611.58 
+1343,"Turing, Åke",24.06,  Churned  
+1344,Donald Turing,-54.02,  Trial  
+1345,Alan Schmidt,£928.48,  TRIAL  
+1346,"Dubois, José",3762.41,
+1347,"García, Katherine",£1938.59,  Churned  
+1348,"Shannon, Åke",4514.37,  Churned  
+1349,Margaret Nørgaard,£4,745.56,  ACTIVE  
+1350,Chloë Hamilton, 3137.99 ,  Churned  
+1351,Renée García,£1384.62,  Active  
+1352,Chloë Hopper,745.26,  Churned  
+1353,Søren Torvalds,£1918.30,  TRIAL  
+1354,Renée Lovelace,-92.88,
+1355,Ada Liskov, 1518.76 ,  Churned  
+1356,François Kierkegaard, 4129.99 ,  Churned  
+1357,Chloë Kierkegaard, 2584.92 ,  Churned  
+1358,Renée Turing,2623.81,  Active  
+1359,"Kierkegaard, Søren",£1844.92,  Churned  
+1360,Åke Dubois,£4802.80,  TRIAL  
+1361,"Shannon, Alan",£253.01,  CHURNED  
+1362,Linus Lovelace,4835.86,  Active  
+1363,José Dubois,-32.68,  Trial  
+1364,Linus Smith,2924.51,  Churned  
+1365,François Shannon, 2411.28 ,  CHURNED  
+1366,"Hamilton, François",3828.54,  CHURNED  
+1367,Ada Schmidt,£1481.55,  CHURNED  ,EXTRA_FIELD
+1368,Donald Liskov,£1115.70,  CHURNED  
+1369,"Shannon, Barbara",NULL,  Churned  
+1370,"Liskov, Katherine",£4357.80,  TRIAL  
+1371,"Johnson, Margaret",3173.81,  Active  
+1372,"Knuth, François",£4,271.93,  TRIAL  
+1373,Hélène Turing,3579.76,  Churned  
+1374,"Shannon, Hélène",-67.01,  ACTIVE  
+1375,"Knuth, Åke", 2671.24 ,  Trial  
+1376,"   ", 1135.20 ,  ACTIVE  
+1377,"Smith, Alan",£4742.57,  Churned  
+1378,Claude Liskov,£2,453.44,  TRIAL  
+1379,"Kierkegaard, Donald",2525.64,  Churned  
+1380,Grace Dubois,3311.54,
+1381,Margaret García,£3,510.83,  CHURNED  
+1382,"   ",£3505.13,  Active  
+1383,"Nørgaard, Margaret",£,  Churned  
+1384,"Turing, François",£2,484.29
+1385,Margaret Smith,2473.05,  Active  
+1386,Katherine Johnson,£1483.63,
+1387,François Liskov,1566.97,
+1388,Claude Schmidt,,  Trial  
+1389,"Turing, Müller",£2004.25,  Trial  
+1390,"Hopper, Barbara",£3,633.42,
+1391,Hélène Turing,3896.93,  Churned  
+1392,Margaret Torvalds, 234.63 ,  Active  
+1393,Katherine Schmidt,2597.90,  CHURNED  
+1394,Renée Turing,2793.93,
+1395,Åke Smith,£831.19,  Trial  
+1396,Renée Knuth,£398.76,  TRIAL  
+1397,Åke Kierkegaard,£517.70,
+1398,François Torvalds,£1038.22,  Trial  
+1399,Müller García, 3001.76 ,  ACTIVE  
+1400,Søren Smith,-22.64,  Active  
+1401,Chloë Hopper,983.63,  TRIAL  
+1402,Müller Hopper,237.27,  TRIAL  
+1403,Åke Lovelace,£247.62,  Trial  
+1404,Barbara Kierkegaard, 522.25 ,  TRIAL  
+1405,Katherine Shannon, 1717.58 ,  ACTIVE  
+1406,Linus Shannon, 2741.29 ,  Churned  
+1407,François Schmidt,£3,363.51,  Churned  
+1408,Åke Dubois,£3337.45,  CHURNED  
+1409,"Hopper, Linus",730.91,  Active  
+1410,Grace Kierkegaard,1023.98,suspended
+1411,Renée Hamilton, 3985.18 ,  Active  
+1412,"García, Müller",£3,719.63,  Trial  
+1413,Søren Nørgaard,£3,693.56,  ACTIVE  
+1414,Barbara Turing,601.17,  CHURNED  
+1415,Ada Liskov,4687.78,  Trial  
+1416,François Johnson,2753.05,  Trial  
+1417,Linus Turing,2687.49,  Active  
+1418,Linus Johnson,4119.32,
+1419,Katherine Lovelace,1608.08
+1420,Søren García,2230.56,  CHURNED  
+1421,Barbara Nørgaard,41.62,  Churned  
+1422,Margaret Hamilton,£3515.20,  Active  
+1423,"Lovelace, Müller", 276.07 ,  Churned  
+1424,Hélène Schmidt,£1585.44,  CHURNED  
+1425,Grace Kierkegaard,,  CHURNED  
+1426,Hélène Knuth,£3305.31,  ACTIVE  
+1427,"Schmidt, François", 3388.06 ,  Active  
+1428,Ada Dubois,2688.07,  Churned  ,EXTRA_FIELD
+1429,Chloë Torvalds,£2,565.20,  Churned  
+1430,Grace Smith,£4950.43,  ACTIVE  
+1431,"   ",£3,358.12,
+1432,Donald Liskov,£,  Active  
+1433,"Turing, Chloë",£1,234.64,  CHURNED  
+1434,"   ", 2229.56 ,  ACTIVE  
+1435,José Smith,,  CHURNED  
+1436,"Schmidt, Linus",£2911.54,  Active  
+1437,Åke Schmidt,£1,832.26,  Churned  
+1438,Linus Hopper,£2,513.33,  Churned  
+1439,Barbara Turing,,  Trial  
+1440,"Hamilton, Åke",1850.33,  Churned  
+1441,"Torvalds, Hélène", 4903.05 ,
+1442,José Smith,£2,895.26,  TRIAL  
+1443,Linus Shannon,£4536.68,  TRIAL  
+1444,"Torvalds, Linus",832.20,  TRIAL  
+1445,"Schmidt, Margaret",4056.81,  TRIAL  
+1446,"Lovelace, Chloë",£643.79,
+1447,"Lovelace, Claude",£4612.62,  Churned  
+1448,"Hopper, François",£3034.60,  ACTIVE  
+1449,Barbara Dubois,none,  Churned  
+1450,"Lovelace, Margaret",£4298.66,  CHURNED  
+1451,Grace Torvalds,2519.13,
+1452,Ada Torvalds,£3394.40,  Trial  
+1453,Åke Nørgaard,1755.84,  TRIAL  
+1454,François Dubois,£2,046.19,
+1455,Linus Hopper,,  TRIAL  
+1456,José Shannon,none,  CHURNED  
+1457,Åke Turing, 2776.78 ,  CHURNED  
+1458,"Kierkegaard, Margaret",£3,916.63,
+1459,Grace Turing,3181.20,  Trial  
+1460,"   ",£193.59,  Trial  
+1461,Grace Nørgaard,£3203.26,
+1462,"Shannon, Linus",£3,920.88,  CHURNED  
+1463,"   ", 3899.47 ,  Trial  
+1464,"Torvalds, Alan",none,  TRIAL  
+1465,"Shannon, Ada",2533.66,  Trial  
+1466,José Kierkegaard,£1888.52,  Trial  
+1467,"Johnson, Ada",£342.43,  Active  
+1468,Ada Kierkegaard,1245.05,  Churned  
+1469,Åke Liskov, 4472.11 ,  Churned  
+1470,Donald Hamilton,£4,364.35,  Active  
+1471,"Torvalds, Margaret",£4779.12,  Churned  
+1472,Müller Johnson, 4405.53 ,  CHURNED  
+1473,Grace García,2394.21,  Trial  
+1474,Margaret Kierkegaard,1581.68,
+1475,Müller Liskov, 1302.21 ,  Trial  
+1476,Chloë Hamilton, 3762.22 ,  TRIAL  
+1477,"Smith, Katherine",£1,353.40,  TRIAL  
+1478,"Nørgaard, Åke",£2,110.50,  Churned  
+1479,François Shannon,£2841.33,
+1480,José Johnson, 486.03 ,  Trial  
+1481,"Knuth, Ada",£4,337.51,  Churned  
+1482,Søren Liskov,£2440.03,  Trial  
+1483,Barbara Schmidt,£1690.25,  ACTIVE  
+1484,François Kierkegaard, 3225.00 ,  Trial  
+1485,Barbara Turing,£629.57,  Churned  
+1486,"Hopper, Margaret",-57.16,
+1487,Margaret Shannon,£426.13,  Active  
+1488,"Smith, Linus",-97.75,  Trial  
+1489,José García,£4,847.86,  Trial  
+1490,Linus Schmidt, 1551.76 ,  Active  
+1491,José Turing,£5.46,  Trial  
+1492,"Shannon, Åke", 2155.02 ,  Active  
+1493,"Knuth, Chloë",£3576.12,  ACTIVE  
+1494,José Shannon, 2662.06 ,  ACTIVE  
+1495,Hélène Shannon, 2462.52 
+1496,Barbara Hopper,£629.57
+1497,Chloë Shannon, 2494.49 ,  ACTIVE  
+1498,Grace Shannon,£361.57,  Trial  
+1499,"   ",2217.59,  Churned  
+1500,Donald Johnson, 4806.26 ,  CHURNED  
+1501,José Johnson,997.62,  Active  
+1502,Ada Turing,£2925.56,  Active  
+1503,Claude Liskov,£1247.37,
+1504,Grace Lovelace,773.82,
+1505,Søren Nørgaard,3667.28,  Trial  
+1506,Hélène García,£3,486.70,  CHURNED  ,EXTRA_FIELD
+1507,Barbara Hopper, 2249.67 ,  TRIAL  
+1508,"Torvalds, Barbara",£4,284.86,  Active  
+1509,Linus Schmidt, 2759.58 ,  CHURNED  
+1510,Grace Smith,897.30
+1511,Renée Schmidt, 3121.73 ,
+1512,Ada Torvalds,3280.47,  CHURNED  
+1513,Chloë Smith, 3543.63 ,  CHURNED  
+1514,"Hopper, Linus",£1158.93,  Churned  
+1515,"Kierkegaard, Chloë", 3194.93 ,  Churned  
+1516,Barbara García,£,  CHURNED  
+1517,Müller Smith,£3822.10,  Trial  
+1518,José Liskov,£2240.26
+1519,"García, Ada",4452.17,  ACTIVE  
+1520,José Torvalds,£2,783.83,
+1521,"   ", 1253.04 ,  Active  
+1522,Alan Kierkegaard,£2415.25,  Churned  
+1523,François Lovelace,2883.54,unknown
+1524,Margaret Smith,3739.65,  CHURNED  
+1525,Claude Liskov,1107.88,pending_approval
+1526,François Nørgaard,665.28,  CHURNED  
+1527,Linus Knuth,£656.22,  ACTIVE  ,EXTRA_FIELD
+1528,"Hamilton, Linus",£1334.95,  CHURNED  
+1529,Søren Hamilton,2971.42,  Active  
+1530,"Dubois, Hélène",£229.16,  TRIAL  
+1531,Grace Hamilton, 4634.01 ,,EXTRA_FIELD
+1532,François Johnson,£1,662.72,  Churned  
+1533,Claude Kierkegaard,96.85,  ACTIVE  
+1534,Grace Johnson,£46.63,  Churned  
+1535,Ada Shannon,£3,248.81,  Churned  
+1536,"Turing, Alan",4834.12,
+1537,Åke Knuth, 96.77 ,  TRIAL  
+1538,Grace Schmidt,1938.92,  TRIAL  
+1539,Claude Hopper,£2,605.99,  CHURNED  
+1540,Müller Johnson,£1,037.75,  Churned  
+1541,"Torvalds, Linus",£4,978.45,  Churned  
+1542,Margaret Turing,4398.79,  Trial  
+1543,José Turing,£538.32,
+1544,"Dubois, Katherine", 3438.45 ,
+1545,Åke Kierkegaard,abc,  ACTIVE  
+1546,Ada Torvalds,£2,068.15,  ACTIVE  
+1547,Åke Kierkegaard,£2,290.44,  Active  
+1548,Renée Dubois,2861.81,  TRIAL  
+1549,Katherine García,4919.23,  Churned  
+1550,Hélène Knuth, 3869.52 ,  TRIAL  
+
+1551,Claude Johnson,2261.23,  Churned  
+1552,Chloë Liskov,£898.50,  ACTIVE  ,EXTRA_FIELD
+1553,Barbara Kierkegaard,£460.50,  Active  
+1554,Linus Dubois,£1896.50,
+1555,Claude Turing,898.44,  Trial  
+1556,Barbara Hopper,4802.37,  TRIAL  
+1557,Ada Dubois,£1193.20,  TRIAL  
+1558,José Dubois,£4,101.51,
+1559,Grace Turing, 3336.65 ,  ACTIVE  
+1560,François Dubois,,  Churned  
+1561,François Liskov,-22.11,  CHURNED  
+1562,José Liskov,£2,625.61,  Active  
+1563,Alan Johnson, 3025.87 ,  TRIAL  
+1564,Claude Dubois,£2600.93,  Active  
+1565,"Lovelace, Donald",2327.10,  Active  
+1566,Müller Liskov,3189.33,  CHURNED  
+1567,Linus García, 35.63 ,  Churned  
+1568,Donald Liskov,£4611.79,  Active  
+1569,Müller Johnson,2072.70,  Trial  
+1570,Ada Hamilton, 1661.94 ,
+1571,Müller Knuth,£4212.82,  Active  
+1572,"Kierkegaard, Müller",£2072.28,  TRIAL  
+1573,"Turing, François",£3,925.80,  Trial  
+1574,Claude Hamilton, 2419.94 ,  Active  
+1575,Linus Schmidt,1029.91,  Churned  
+1576,Grace Schmidt, 4360.02 ,  ACTIVE  
+1577,Ada Dubois,£3,196.06,  ACTIVE  
+1578,"Shannon, Margaret",1371.82,  Churned  
+1579,"Shannon, Müller", 3523.25 ,  ACTIVE  
+1580,"Lovelace, Hélène",2356.32,
+1581,Barbara Kierkegaard,£2965.82,  TRIAL  
+1582,Alan Torvalds,£2,331.15,
+1583,Margaret Johnson,£3223.87,  ACTIVE  
+1584,"Knuth, Søren", 4586.74 
+1585,Søren Johnson, 858.15 ,  Active  
+1586,Margaret Liskov, 359.27 ,  Trial  
+1587,Barbara Johnson,£1706.87,  Trial  
+1588,Barbara Schmidt,£3698.14,
+1589,Margaret Smith,£1543.64,
+1590,Renée Liskov,3302.52,  Active  
+1591,"Nørgaard, Ada", 750.34 ,  CHURNED  
+1592,François Dubois,£3399.40,  Trial  
+1593,Linus Knuth,4263.26
+1594,Søren Hopper,£4,329.07,  CHURNED  
+1595,Renée Knuth,£3314.13,
+1596,Søren Smith,£1,445.91,
+1597,Åke Schmidt,4951.14,unknown
+1598,"Dubois, Chloë",£2549.53,  ACTIVE  
+1599,Katherine Kierkegaard, 2057.13 
+1600,Søren Hopper,4808.88,
+1601,José Johnson,2619.17,  Churned  
+1602,"   ",1721.01,  Churned  
+1603,Chloë Liskov, 3992.12 ,  Churned  
+1604,José Lovelace,2892.81,  Trial  
+1605,Alan Turing, 4257.97 ,  CHURNED  
+1606,"Dubois, Margaret",£,  Trial  
+1607,"Johnson, Katherine",2639.31,  Active  
+1608,Åke Nørgaard,£3,852.99,  Churned  
+1609,Søren Lovelace,3778.64,
+1610,Åke Kierkegaard,£4,612.68,  CHURNED  
+1611,Chloë Lovelace,£3987.56
+1612,Søren Smith, 4590.62 ,  Trial  
+1613,Hélène Nørgaard,£1,212.78,  Churned  
+1614,"Smith, Ada",2059.19,  TRIAL  
+1615,"Dubois, Ada",£4,692.83,  CHURNED  
+1616,Claude Knuth,£,  CHURNED  
+1617,Alan Schmidt,£4976.26,  Churned  
+1618,Alan Shannon,£,  Trial  
+1619,"   ",£1007.34,  TRIAL  
+1620,Donald Dubois, 4563.48 ,
+1621,José Nørgaard,£4,483.08,  Active  
+1622,Müller Torvalds,£23.50,  Trial  
+1623,Katherine Lovelace,£3447.86,
+1624,Müller Schmidt,280.70,  TRIAL  
+1625,Donald Turing,£4,837.73,  Trial  
+1626,Alan Torvalds,£3,677.94
+1627,Katherine Johnson, 3964.73 
+1628,Müller Nørgaard,£2,030.51,  Churned  
+1629,Claude Kierkegaard,4624.45,  Trial  
+1630,Grace Hamilton,£657.04,  Trial  
+1631,Alan Smith,£575.33,
+1632,"Liskov, Renée",£3,422.02,  Active  
+1633,"Shannon, Margaret", 2078.70 ,  TRIAL  
+1634,"Nørgaard, Renée",abc,
+1635,François Knuth,£3962.24,  ACTIVE  
+1636,Katherine Turing,£192.92,  Churned  
+1637,"Knuth, Søren",1182.02,  Active  
+1638,Linus Hamilton,£3,134.19,  ACTIVE  
+1639,"Johnson, Åke",3352.36,
+1640,José Liskov,£4450.95,
+1641,Barbara Turing,2427.88,
+1642,"Knuth, Müller", 3385.88 ,  ACTIVE  
+1643,Donald Knuth,£372.28,
+1644,Hélène Turing,£686.34,  TRIAL  
+1645,"Shannon, Grace",£4259.00,  TRIAL  
+1646,Barbara Dubois,none,  CHURNED  
+1647,José Lovelace,£3,682.21,  Trial  
+1648,Claude Torvalds,30.36,
+1649,Grace Knuth,2398.95,  ACTIVE  
+1650,"Hamilton, Chloë",1482.47,
+1651,Hélène Smith,-26.65,  Active  
+1652,Hélène Kierkegaard,4302.61
+1653,José Kierkegaard,£2,714.46,  Active  
+1654,Linus Torvalds,4440.45,  Trial  
+1655,Alan García, 1027.54 ,  Active  ,EXTRA_FIELD
+1656,Donald Nørgaard, 1131.06 ,  Churned  
+1657,"   ",2635.78,  Churned  
+1658,Hélène Dubois,3368.17,  TRIAL  
+1659,"Hopper, Alan",£564.56,  Active  ,EXTRA_FIELD
+1660,Chloë Schmidt,£,  Churned  
+1661,Ada Smith, 4175.56 ,  Trial  
+1662,Linus Smith,£2,292.75,  TRIAL  
+1663,François Nørgaard, 745.95 ,  Active  
+1664,Barbara Turing,£3,465.83,  ACTIVE  
+1665,"Liskov, José",-58.59,  TRIAL  
+1666,François Hopper,abc,  Trial  
+1667,Linus Liskov, 1481.31 ,  Churned  
+1668,Hélène Liskov,3659.54,
+1669,Renée Dubois,2232.63,  Churned  
+1670,"Hamilton, José",£2694.37,  Active  
+1671,Linus Lovelace,£1,808.52,  TRIAL  
+1672,Søren Shannon,4372.14,  Trial  
+1673,Barbara Nørgaard,£4489.13,
+1674,"   ", 4338.29 ,
+1675,Alan Lovelace,£4572.48,  Trial  
+1676,Barbara Smith,£,  Trial  
+1677,"Hamilton, Hélène", 17.22 ,  Churned  
+1678,"Knuth, François",£4,534.43,
+1679,Alan Dubois,£2907.42,  Churned  
+1680,Søren García, 92.64 ,  ACTIVE  
+1681,"Turing, Søren", 1809.01 ,
+1682,"García, Alan",3142.01,  Active  
+1683,François Shannon,3443.29
+1684,Søren Nørgaard,£1,704.86,
+1685,Donald Nørgaard,3069.07,  ACTIVE  
+1686,Søren Shannon,£,  Churned  
+1687,François Lovelace,£,  Active  
+1688,Claude Hopper,3816.30,unknown
+1689,"Hamilton, Grace",3966.31,  TRIAL  
+1690,"Nørgaard, Margaret",NULL,  TRIAL  
+1691,"Liskov, Søren",£2,505.67,  ACTIVE  
+1692,"   ",1412.87,  Active  
+1693,Åke Liskov,929.70,  Trial  
+1694,Chloë Hopper,£1574.83,
+1695,François García,£415.83,
+1696,François Schmidt,£2222.56,  TRIAL  
+1697,Åke Schmidt,£68.87,  TRIAL  
+1698,Claude Knuth,NULL,  ACTIVE  
+1699,"Hopper, Renée",£2126.40,  Churned  
+1700,Renée Liskov,£3017.81,  CHURNED  
+1701,José Johnson,£3,143.71,,EXTRA_FIELD
+1702,"   ",£4860.50,  TRIAL  
+1703,Alan Schmidt,£3839.02,  CHURNED  
+1704,"Nørgaard, Ada",2154.88,  Trial  
+1705,Barbara García,-53.87,  ACTIVE  
+1706,Åke Schmidt,-33.71,  Active  
+1707,Renée Dubois, 3833.52 ,  Active  
+1708,Ada Nørgaard,1709.58,  TRIAL  
+1709,Katherine Schmidt,429.28
+1710,Hélène Schmidt,£2842.41
+1711,Renée Liskov,4042.59,  ACTIVE  
+1712,Müller Turing,£1819.85,  Churned  
+1713,Donald Shannon,£1490.11,  Churned  
+1714,Margaret Dubois,£341.01,  Trial  
+1715,François Knuth,£1570.20,  Churned  
+1716,Ada Schmidt,£4314.24,  Churned  
+1717,Chloë Torvalds,£3,135.66,  ACTIVE  
+1718,Chloë Knuth,4151.92,  TRIAL  
+1719,"   ",754.06,  TRIAL  
+1720,Chloë Schmidt, 1013.94 ,
+1721,Barbara Schmidt,£4819.12,  Active  
+1722,Alan Torvalds,4484.38,  Churned  
+1723,"Torvalds, Linus", 3322.76 ,  ACTIVE  
+1724,Müller Smith,£1,952.80,  ACTIVE  
+1725,Hélène Knuth,£2949.46,  Churned  
+1726,Katherine Shannon, 4685.18 
+1727,Grace Smith,3995.71,  CHURNED  
+1728,Søren Torvalds,£614.66,  TRIAL  
+1729,"Shannon, José",£4,114.43,  Active  
+1730,"Nørgaard, Chloë",£4332.89,  Trial  
+1731,"Smith, Margaret",1308.55,  Churned  
+1732,"Nørgaard, Ada",£3209.75,  ACTIVE  
+1733,"Hopper, Alan",£2,584.25,  CHURNED  
+1734,"Shannon, Claude", 2967.14 ,  ACTIVE  
+1735,Renée Smith,1126.31,  Churned  
+1736,Hélène Hamilton,abc,  Trial  
+1737,"Dubois, Barbara",£3594.32,  Trial  
+1738,Donald Hamilton, 4068.00 ,  TRIAL  
+1739,Donald Smith,£3387.56,  ACTIVE  
+1740,"Torvalds, Hélène",£2916.60,
+1741,"Schmidt, Renée",£1920.56,  TRIAL  
+1742,"   ",4983.71,
+1743,François Knuth,665.53,  TRIAL  
+1744,"Turing, Hélène",£3552.73,
+1745,Claude Johnson,£,  Trial  
+1746,José García, 4463.90 ,  Trial  
+1747,"Lovelace, Hélène",£277.56,
+1748,Chloë Hopper,4636.40,  Churned  
+1749,Claude Hopper, 1022.65 ,archived
+1750,Donald Dubois,-70.92,  ACTIVE  
+1751,Müller Lovelace,,  Churned  
+1752,"Turing, Müller",,  Trial  
+1753,Müller Lovelace, 4754.73 ,suspended
+1754,"   ", 3220.00 ,  CHURNED  
+1755,"Shannon, Renée",£4825.42,
+1756,Renée Shannon,-82.10,
+1757,François Torvalds,660.78,  CHURNED  
+1758,José Dubois,£455.66,  CHURNED  
+1759,"   ",£3,383.82,  Churned  
+1760,"Knuth, Hélène",NULL,
+1761,Linus Knuth,243.40,  CHURNED  
+1762,José Liskov,413.44,,EXTRA_FIELD
+1763,Barbara Smith, 421.04 ,  CHURNED  
+1764,José Liskov,£4,357.37,  Active  
+1765,Margaret Knuth,34.21,
+1766,Renée Smith,£3722.51,  CHURNED  
+1767,Renée Nørgaard,629.82,  Active  
+1768,"Schmidt, Åke",£1,212.69,unknown
+1769,"Lovelace, Chloë",-62.67,  TRIAL  
+1770,Renée Lovelace,£517.80,  Trial  
+1771,François Lovelace,£2433.07,  Active  
+1772,Alan Shannon,£2088.60,
+1773,Hélène Kierkegaard,£810.86,  TRIAL  
+1774,Müller Torvalds,£4213.12,
+1775,Chloë Smith, 3264.24 ,  Active  
+1776,"Turing, Åke",£785.79,
+1777,"Hamilton, François",240.01,  TRIAL  
+1778,Linus Lovelace,1691.99,  Active  
+1779,"Nørgaard, Søren", 4389.18 ,  Churned  
+1780,Grace Torvalds,3995.94,pending_approval
+1781,"García, Grace",£3,151.48,  Active  
+1782,Åke Kierkegaard, 775.71 ,  ACTIVE  
+1783,Ada Hamilton, 2370.95 ,  ACTIVE  
+1784,Katherine Turing,£2,650.60,
+1785,Hélène Smith,3412.58,  Active  
+1786,Müller Liskov,£3863.00,pending_approval
+1787,Claude Torvalds, 4888.78 ,  Churned  
+1788,Müller Torvalds,£4,135.88,  Trial  
+1789,Hélène Kierkegaard,£4060.10,  TRIAL  
+1790,Claude García,1423.22,  Trial  
+1791,"   ",£2,964.56,  Trial  
+1792,Grace Smith, 3136.81 ,pending_approval
+1793,Ada Johnson,£1,184.31,  Trial  
+1794,Claude Kierkegaard,3688.87,  CHURNED  
+1795,Claude Kierkegaard,2063.20,
+1796,Hélène Hopper,£2633.65,  CHURNED  
+1797,Åke Kierkegaard,£4,119.94,  Trial  
+1798,Linus Hopper,2279.88,  CHURNED  
+1799,"Hopper, Chloë",2860.96,  ACTIVE  
+1800,Åke Lovelace,£714.99,
+
+1801,Donald Turing,2446.52,  Active  
+1802,Hélène Torvalds,£1,889.64,  Churned  
+1803,Claude Smith,£451.13
+1804,Hélène Kierkegaard,£447.21,  Churned  
+1805,Margaret Schmidt,966.17,  CHURNED  
+1806,Margaret Schmidt,902.82,  ACTIVE  
+1807,Hélène Hopper,£3036.24
+1808,Chloë Lovelace, 1590.33 ,
+1809,"Turing, François",£3,842.68,  Trial  
+1810,Barbara Lovelace,1493.63,  Trial  
+1811,"Lovelace, Margaret",£3,761.91,  CHURNED  
+1812,"   ",£2423.44,  ACTIVE  
+1813,Katherine Nørgaard, 3927.14 ,  TRIAL  
+1814,Claude Liskov,£845.10,  Trial  
+1815,Hélène Smith,-34.60,
+1816,Renée Liskov, 1067.71 ,
+1817,François Hopper,£619.27,  Trial  
+1818,Müller Torvalds, 1716.46 ,  CHURNED  
+1819,Müller Hamilton,2999.57
+1820,"Schmidt, Ada",£2781.17,  CHURNED  
+1821,Ada Torvalds,3359.71,  Trial  
+1822,Ada Hopper,£4681.56,,EXTRA_FIELD
+1823,José Schmidt,1792.32,  CHURNED  ,EXTRA_FIELD
+1824,"Liskov, Åke",£2,466.73,
+1825,Margaret Smith,£2,504.13,  Churned  
+1826,Barbara Hopper,£3,731.14,  Churned  
+1827,José Hamilton, 120.47 ,  TRIAL  
+1828,Grace Smith,£2165.58,  Churned  
+1829,Grace Torvalds,£239.59,  TRIAL  
+1830,"Kierkegaard, Ada",£,  ACTIVE  
+1831,Margaret Lovelace,NULL,  ACTIVE  
+1832,Müller García,£4718.02,  CHURNED  
+1833,Grace Knuth,4239.22,  Active  
+1834,"Hopper, Chloë",283.67,  TRIAL  
+1835,Ada Johnson,3976.85,  Churned  
+1836,"Hopper, Donald",2977.90,  Active  
+1837,Søren Knuth,£3,106.15,  ACTIVE  
+1838,Søren Shannon,£2,708.01,
+1839,Søren Lovelace,£3,290.10,
+1840,Grace Knuth,£4,882.67,  TRIAL  
+1841,Hélène Dubois, 4260.78 ,  TRIAL  
+1842,"Johnson, Grace",£23.47,  Trial  
+1843,Müller Nørgaard,£1,030.56,  ACTIVE  
+1844,Margaret Turing,,
+1845,"Turing, François",£1,313.68,  CHURNED  
+1846,"Torvalds, José",NULL,  ACTIVE  
+1847,Søren Nørgaard,£860.94,  ACTIVE  
+1848,Donald Hamilton,,  CHURNED  
+1849,Donald Smith, 3948.99 ,  Churned  
+1850,Åke Hamilton,3924.40,  Trial  
+1851,Åke García, 1612.51 ,  Trial  
+1852,Renée Schmidt,2921.99,  ACTIVE  
+1853,Chloë Torvalds, 790.26 ,  ACTIVE  
+1854,Søren Hamilton, 2328.94 ,  TRIAL  
+1855,"Knuth, José", 2211.23 ,  Trial  
+1856,Alan Nørgaard,1142.57
+1857,Donald Schmidt, 1517.06 ,  Churned  
+1858,José Lovelace, 1412.82 ,  Trial  
+1859,Ada Johnson,£4,946.43,  ACTIVE  
+1860,Linus Dubois,£3789.32,  ACTIVE  
+1861,Chloë Hamilton,4265.46,  Churned  
+1862,Åke Nørgaard,£1,776.54,  Churned  
+1863,François Liskov,2840.05,  Active  
+1864,"Knuth, Renée",£1956.23,  ACTIVE  
+1865,"Hopper, François",£3,376.05,
+1866,"Hamilton, Barbara", 4815.16 ,  Trial  
+1867,"Lovelace, Linus",-53.04,  ACTIVE  
+1868,"   ",£1552.24,  Churned  
+1869,"Shannon, Hélène",£4955.47,
+1870,Linus Liskov,£4396.80,  Active  
+1871,Hélène Liskov, 3559.68 ,  ACTIVE  
+1872,Chloë Johnson,3297.10,  ACTIVE  
+1873,François Schmidt,£3,491.73,  Trial  
+1874,"Nørgaard, Alan", 3833.86 ,  ACTIVE  
+1875,Alan Schmidt,£3749.93,  Trial  
+1876,Margaret Kierkegaard,£1638.92,  ACTIVE  ,EXTRA_FIELD
+1877,Hélène Turing,£1,399.31,  Active  
+1878,"Turing, Renée", 3819.13 ,  TRIAL  ,EXTRA_FIELD
+1879,"   ",4183.32,  TRIAL  
+1880,"Nørgaard, Renée",,  ACTIVE  
+1881,Donald Schmidt,1106.74,  CHURNED  
+1882,Margaret Smith,£2,812.46,  CHURNED  
+1883,Margaret Liskov, 79.90 ,
+1884,José Schmidt,£224.48,  CHURNED  
+1885,Barbara Shannon,£3001.34,  CHURNED  
+1886,Müller Smith,342.23,  CHURNED  
+1887,Linus Dubois,71.39,  ACTIVE  
+1888,"Lovelace, Alan",£2,496.14,  Active  
+1889,Hélène Kierkegaard, 675.66 ,  Active  
+1890,"Nørgaard, François", 4235.44 ,  Active  
+1891,Katherine Nørgaard,£3598.91
+1892,"Hamilton, Alan",£4,960.10,
+1893,Donald Hamilton,£2134.07,  CHURNED  
+1894,François Shannon,£4,838.79,  TRIAL  
+1895,Barbara Johnson,£2528.94,  TRIAL  
+1896,François Dubois,£2,766.50,  TRIAL  
+1897,Åke Hopper,£3,575.74,  ACTIVE  
+1898,Søren Johnson,£2082.02,  TRIAL  
+1899,Alan Knuth,4962.40,  CHURNED  
+1900,Søren García, 3176.72 ,  CHURNED  
+1901,Åke Lovelace,1810.26,  CHURNED  
+1902,"Shannon, Claude",£2,893.82,
+1903,Renée Knuth,4870.86,  Active  
+1904,François García,£3294.14,  CHURNED  
+1905,Alan Hopper, 3884.57 ,  Trial  
+1906,François Lovelace,4082.86,
+1907,Chloë Schmidt,£2,157.59,  CHURNED  
+1908,Margaret Johnson,£1,066.80,
+1909,José Torvalds,2206.45,  ACTIVE  
+1910,"Liskov, Alan",£,  ACTIVE  
+1911,Ada Schmidt,4938.16,  ACTIVE  
+1912,José Torvalds,£3785.77,  Churned  
+1913,Søren Schmidt, 3055.99 ,  ACTIVE  
+1914,Claude Lovelace, 4345.68 ,  ACTIVE  
+1915,Åke García, 943.74 ,
+1916,Müller Schmidt,-98.82,  ACTIVE  
+1917,Margaret Kierkegaard,£3,037.83,  Churned  
+1918,"Nørgaard, Åke",-69.64,  Trial  
+1919,Donald Turing,3300.43,
+1920,Müller Torvalds,none,  CHURNED  
+1921,"Smith, Müller",2881.98,  Trial  ,EXTRA_FIELD
+1922,Renée Schmidt,£2811.69,  ACTIVE  
+1923,Müller Kierkegaard,-61.92,  Active  
+1924,Grace Dubois,£4236.36,suspended
+1925,Katherine Hopper,£2693.77,  Trial  
+1926,François Turing,4246.39,  Trial  
+1927,Åke Schmidt,£2477.65,
+1928,Donald Smith,4053.04,  Active  ,EXTRA_FIELD
+1929,Barbara Lovelace,£1690.36,  TRIAL  
+1930,Donald Kierkegaard,£1,971.89,  Churned  
+1931,François Johnson,£2887.90,  Trial  
+1932,Donald Kierkegaard,1814.32,  ACTIVE  
+1933,"Torvalds, Barbara",£1781.14,  ACTIVE  
+1934,Chloë Turing,2022.95,
+1935,Barbara Schmidt,3880.37,  CHURNED  
+1936,"Hopper, Ada",£614.65,
+1937,José Kierkegaard,£3,972.75,  Churned  
+1938,"   ",£4,311.74,  CHURNED  
+1939,"Johnson, Linus",4186.53,  Active  
+1940,Barbara Lovelace,4003.56,
+1941,Alan García,3766.58,  CHURNED  
+1942,Ada Hamilton,-72.56,  TRIAL  
+1943,Søren Dubois,1053.15,  ACTIVE  
+1944,Donald Turing, 1084.12 ,  Churned  
+1945,Renée Schmidt,2003.30,  CHURNED  
+1946,Alan Schmidt,£4,976.82,  Churned  
+1947,"Smith, Chloë",£4962.28,  CHURNED  
+1948,Chloë Hopper, 449.43 ,  Active  
+1949,"   ",529.49,  Churned  
+1950,Åke Hopper, 3503.78 
+1951,Renée Turing,£3707.78,  ACTIVE  
+1952,Claude Turing,3678.43,  Churned  
+1953,Chloë Kierkegaard, 2197.61 ,  CHURNED  
+1954,Katherine Shannon, 439.28 ,  Trial  
+1955,"Hopper, Katherine",,  Trial  
+1956,Chloë Schmidt,£3655.33,  Churned  
+1957,Renée Lovelace,4554.88,  Churned  
+1958,Linus Schmidt,£3,038.83,  Churned  
+1959,Claude García,£259.28,  Trial  
+1960,Margaret Shannon,£1,471.26,
+1961,François Torvalds,3216.65,  Churned  
+1962,Hélène Liskov,,  ACTIVE  
+1963,"Hamilton, Åke",£2,574.02,archived
+1964,Renée Liskov,£2,144.57,  TRIAL  
+1965,Barbara Turing, 2172.63 ,  CHURNED  
+1966,Renée Knuth,£,  Trial  
+1967,Åke García,£3,410.27,  Trial  ,EXTRA_FIELD
+1968,"Turing, Renée",543.86,
+1969,Katherine Lovelace,,  TRIAL  
+1970,"Dubois, Katherine",£2,558.64,  Active  
+1971,Chloë Hamilton,3914.67,  Churned  
+1972,"Hamilton, Claude", 2009.41 ,  ACTIVE  
+1973,"   ",£1,535.70,  TRIAL  
+1974,"Shannon, Grace", 1821.06 
+1975,Grace Schmidt,NULL,  CHURNED  
+1976,Søren Liskov,488.95,  ACTIVE  
+1977,Linus Dubois,£3,252.99,  Active  
+1978,Margaret Lovelace,£4,561.32,  Trial  
+1979,Müller Shannon,£4,948.27,  ACTIVE  
+1980,José Torvalds, 4267.92 ,  Trial  
+1981,Åke Knuth,4762.46,  Trial  
+1982,Grace Nørgaard,,  Churned  
+1983,Linus Knuth,abc,  ACTIVE  
+1984,Linus Johnson, 3604.29 ,  ACTIVE  
+1985,Katherine Lovelace,£,  Trial  
+1986,Grace Schmidt,£4,947.73,  Active  
+1987,Müller Hopper, 4420.51 ,  Trial  
+1988,Ada Smith, 3653.73 ,  Active  
+1989,Margaret Kierkegaard, 1912.99 ,  Churned  
+1990,"Shannon, Müller",£3150.85,  Active  
+1991,Åke Hopper,NULL,  Trial  
+1992,"Torvalds, Barbara",,
+1993,Hélène Torvalds,£2,015.51,  Active  
+1994,Ada Nørgaard,£4,673.72,  ACTIVE  ,EXTRA_FIELD
+1995,"Nørgaard, Ada", 3681.98 ,  ACTIVE  
+1996,"Smith, Hélène",£1,662.12,  Churned  
+1997,Grace Hopper,abc,
+1998,Renée Turing,£1437.80,  Churned  
+1999,"Hamilton, Margaret",£,
+2000,"Torvalds, Alan",-23.52,  CHURNED  

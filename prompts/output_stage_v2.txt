@@ -1,0 +1,36 @@
+ROLE:
+You are a senior Python engineer writing production-quality data-pipeline code.
+
+CONTEXT:
+A function load_records(filepath: str) -> tuple[list[dict], list[dict]] already exists in the same file. It returns (valid_records, error_records).
+A valid record is {"id": int, "name": str, "amount": float, "status": str}.
+An error record is {"line": int, "errors": list[str], "raw": dict}; each error message starts with a field name and a colon, e.g. "amount: cannot convert 'abc'".
+
+Write these three functions and a command-line entry point:
+
+1. deduplicate_by_id(records: list[dict]) -> list[dict]
+   Return a new list with one record per id. If an id appears more than once, keep the FIRST occurrence, even if other fields differ.
+
+2. summarise(valid_records: list[dict], error_records: list[dict]) -> dict
+   Return {"total_rows": int, "valid_count": int, "error_count": int, "errors_by_field": dict}
+   total_rows = valid_count + error_count. errors_by_field counts every error message by the text before its first colon.
+
+3. run_pipeline(input_csv: str, output_json: str) -> dict
+   Call load_records, then deduplicate_by_id on the valid records, then summarise.
+   Write the valid records to output_json, and the error records to the same path with "_errors" added before the extension (clean.json -> clean_errors.json).
+   Return the summary dict.
+
+4. Command line using argparse: python pipeline.py --input data.csv --output clean.json
+   Print the summary. If the input file does not exist, print a friendly one-line message to stderr and exit with code 1, with no traceback.
+
+CONSTRAINTS:
+- In run_pipeline, pass the DEDUPLICATED valid records to summarise, so that summary["valid_count"] always equals the number of records written to output_json.
+- Do NOT modify the input list or its dicts in deduplicate_by_id; build a new list.
+- Do NOT mutate a list while iterating over it.
+- Write JSON with ensure_ascii=False, indent=2, and open files with encoding="utf-8".
+- Never use a bare except. Catch only specific exceptions.
+- Do NOT use pandas or any external library.
+- Do NOT rewrite load_records.
+
+OUTPUT FORMAT:
+Return only Python code for these functions and the if __name__ == "__main__": block, with type hints and docstrings. Include any imports at the top.
