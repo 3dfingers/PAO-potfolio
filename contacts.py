@@ -44,16 +44,18 @@ def sanitise_phone(raw: str) -> str:
     if not digits:
         raise ValueError("Phone number must contain digits.")
 
-    if raw.strip().startswith("+"):
-        if not raw.strip().startswith("+44") or not digits.startswith("44"):
-            raise ValueError("Only UK phone numbers are accepted.")
-    elif not (digits.startswith("0") or digits.startswith("44")):
-        raise ValueError("Phone number must start with 0, 44 or +44.")
-
-    if digits.startswith("0"):
+    if digits.startswith("440"):
+        digits = "44" + digits[3:]
+    elif digits.startswith("0"):
         digits = "44" + digits[1:]
+    elif digits.startswith("44"):
+        pass
+    elif raw.lstrip().startswith("+44"):
+        pass
+    else:
+        raise ValueError("Phone number must be a UK number starting with 0 or 44.")
 
-    if not digits.startswith("44") or len(digits) != 12:
+    if len(digits) != 12 or not digits.startswith("44"):
         raise ValueError("UK phone number must contain exactly 10 digits after 44.")
 
     return "+" + digits

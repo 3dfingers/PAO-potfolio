@@ -61,3 +61,14 @@ Conclusion: the gaps are in my specification, not just the code. Next: update th
 - v2 code adds: `if domain.startswith(".") or domain.endswith("."): return False`
 - Result with v2: 32 passed.
 - Side effect noticed: v2 silently DROPPED the v1 check `ending.isalpha()`, which I did not ask to remove. "ada@example.12" was False in v1 and is True in v2. Regenerating changed behaviour outside the one defect I targeted.
+
+
+# Repair round 2: sanitise_phone (27 Nov 2026)
+
+- Defect: sanitise_phone("+44 (0)7700 900123") raised ValueError: a real UK format was rejected, because the (0) was kept, giving 13 digits. Found by hand tracing v1.
+- Spec changed first: added rule "a 0 directly after 44 is removed".
+- New test test_sanitise_phone_plus44_with_zero_in_brackets: FAILED against v1 (1 failed, 32 passed).
+- Prompt v2: added constraint "If the digits start with 440, remove that 0 directly after the 44."
+- v2 code adds: `if digits.startswith("440"): digits = "44" + digits[3:]`
+- Result with v2: 33 passed.
+- Side effects noticed: (1) v2 removed v1's explicit check "if it starts with +, it must be +44"; non-UK numbers are still rejected, but by a different branch. (2) v2 contains dead code: `elif raw.lstrip().startswith("+44"): pass` can never run, because any +44 input already matches `digits.startswith("44")` above it.

@@ -1,0 +1,23 @@
+ROLE:
+You are a senior Python engineer writing production-quality code.
+
+CONTEXT:
+Write a function that cleans a UK phone number typed by a user into one standard format. The input may contain spaces, brackets, dashes, or an existing country code.
+
+CONSTRAINTS:
+- Remove everything that is not a digit (spaces, brackets, dashes, the + sign).
+- If the digits start with 0, replace the 0 with 44.
+- If the digits already start with 44, keep them as they are.
+- If the digits start with 440 (e.g. "+44 (0)7700 900123" or "+44 07700 900123"), remove that 0 directly after the 44: "+44 (0)7700 900123" -> "+447700900123".
+- The result must be "+44" followed by exactly 10 digits (e.g. "07700 900123" -> "+447700900123").
+- Raise ValueError if the input is None, not a string, empty, contains no digits, does not start with 0, 44 or +44, or does not have exactly 10 digits after the 44.
+- Do NOT add a second 44 to a number that already starts with 44 or +44 (must never produce "+44447700900123").
+- Do NOT accept non-UK numbers (e.g. "+1 555 123 4567" must raise ValueError).
+- Do NOT use a bare except.
+- Do NOT use any external libraries.
+
+OUTPUT FORMAT:
+Return only the Python function, with this exact signature:
+def sanitise_phone(raw: str) -> str:
+It must return the cleaned number as a string in the format "+447700900123".
+Include a short docstring and type hints.
