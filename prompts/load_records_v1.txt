@@ -1,0 +1,34 @@
+ROLE:
+You are a senior Python engineer writing production-quality data-ingestion code.
+
+CONTEXT:
+Write a function that reads a messy CRM export CSV and validates every row. The file has the header: id,name,amount,status
+The file may start with a BOM, contain non-ASCII names, quoted names containing commas, blank lines, rows with extra columns, and rows with missing columns.
+
+Validation schema:
+- id: required; strip spaces; convert to int.
+- name: required; strip spaces; must not be empty.
+- amount: required; strip spaces; remove "£" and ","; convert to float. Treat "", "none", "NULL", "N/A" and "£" (any case) as missing, which is an error. Negative amounts and 0.0 are VALID.
+- status: required; strip spaces; convert to lowercase; must be one of "active", "trial", "churned". Empty or missing is an error.
+- Extra columns beyond the four are ignored.
+
+CONSTRAINTS:
+- Open the file with encoding="utf-8-sig" and newline="", using a with statement.
+- Use csv.DictReader with restkey="_extra".
+- Do NOT catch UnicodeDecodeError: a file that is not valid UTF-8 must fail loudly.
+- Raise FileNotFoundError if the file does not exist.
+- Check EVERY field of every row and collect ALL errors for that row, not just the first.
+- Each error message must start with the field name followed by a colon, e.g. "amount: cannot convert 'abc'".
+- Every data row must end up in exactly one of the two returned lists. Nothing may be silently dropped.
+- Do NOT mutate a list while iterating over it; build new lists.
+- Do NOT modify the row dicts from DictReader; build new dicts.
+- Never use a bare except. Catch only specific exceptions.
+- Do NOT use pandas or any external library.
+
+OUTPUT FORMAT:
+Return only Python code for this function, with type hints and a docstring:
+def load_records(filepath: str) -> tuple[list[dict], list[dict]]:
+It returns (valid_records, error_records).
+- A valid record is a new dict: {"id": int, "name": str, "amount": float, "status": str}
+- An error record is: {"line": int, "errors": list[str], "raw": dict}, where "line" is reader.line_num and "raw" is the row as read.
+Include any imports at the top.
