@@ -58,6 +58,9 @@ def test_validate_email_none():
 def test_validate_email_surrounding_spaces():
     assert validate_email(" ada@example.com ") is False 
 
+def test_validate_email_no_domain_name():
+    assert validate_email("ada@.com") is False
+
 
 # ---------- sanitise_phone ----------
 
@@ -73,6 +76,8 @@ def test_sanitise_phone_starts_44():
 def test_sanitise_phone_brackets_dashes():
     assert sanitise_phone("(07700) 900-123") == "+447700900123"
 
+def test_sanitise_phone_plus44_with_zero_in_brackets():
+    assert sanitise_phone("+44 (0)7700 900123") == "+447700900123"
 
 def test_sanitise_phone_no_digits_rejected():
     with pytest.raises(ValueError):

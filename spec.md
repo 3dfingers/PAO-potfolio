@@ -57,6 +57,7 @@ Rule: the specification is the single source of truth. If code and spec disagree
 | `"ada@example"` (no dot in domain) | returns False | The part after @ must contain a dot |
 | `None` / not a string | returns False | Never raises; not text means not a valid email |
 | `" ada@example.com "` (surrounding spaces) | returns False | Any space anywhere makes the email invalid; consistent with the internal-space rule |
+| `"ada@.com"` (no name before the dot) | returns False | The part after @ must have a name before the dot, not just ".com" |
 
 **Negative examples (must NOT …), at least two:**
 1. Must NOT accept an email containing a space anywhere (e.g. "ada@ example.com" or " ada@example.com " must return False)
@@ -83,6 +84,7 @@ Rule: the specification is the single source of truth. If code and spec disagree
 | `None` | raises ValueError | Not a string; consistent with parse_name being strict |
 | Too few / too many digits (e.g. "0770", "077009001234567") | raises ValueError | A UK number must have exactly 10 digits after +44; anything else is likely a typo |
 
+| `"+44 (0)7700 900123"` | returns "+447700900123" | Common UK way of writing numbers; a 0 directly after the 44 is removed |
 **Negative examples (must NOT …), at least two:**
 1. Must NOT add a second +44 to a number that already starts with +44 (must never produce "+44447700900123")
 2. Must NOT accept non-UK numbers (e.g. "+1 555 123 4567" must raise ValueError)
@@ -113,3 +115,5 @@ Record every change to this spec after testing, with the date and the reason.
 
 | Date | Change | Reason (which test or finding caused it) |
 |---|---|---|
+| 27 Nov 2026 | Added rule: domain must have a name before the dot ("ada@.com" is False) | Hand trace of v1 code showed "ada@.com" returned True; my spec did not cover this case |
+| 27 Nov 2026 | Added rule: a 0 directly after 44 (e.g. "+44 (0)7700 900123") is removed | Hand trace of v1 code showed this real UK format was rejected (13 digits); my spec did not cover it |
